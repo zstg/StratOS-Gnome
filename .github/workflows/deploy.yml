@@ -7,8 +7,11 @@ on:
 
 jobs:
   build:
-    permissions: write-all
     runs-on: ubuntu-latest
+    permissions: 
+      contents: write
+      pull-requests: write
+      repository-projects: write
     container:
       image: archlinux/archlinux:latest
       options: --privileged
