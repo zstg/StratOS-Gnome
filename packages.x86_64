@@ -80,6 +80,7 @@ grab
 grub
 hdparm
 intel-ucode
+amd-ucode
 iw
 iwd
 kcrash
