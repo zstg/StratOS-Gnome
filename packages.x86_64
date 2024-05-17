@@ -1,5 +1,5 @@
 alsa-utils
-amd-ucode
+# amd-ucode
 # arch-install-scripts
 # archinstall
 archlinux-keyring
@@ -79,7 +79,7 @@ gptfdisk
 grab
 grub
 hdparm
-intel-ucode
+# intel-ucode
 amd-ucode
 iw
 iwd
