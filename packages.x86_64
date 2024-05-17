@@ -1,5 +1,5 @@
 alsa-utils
-# amd-ucode
+amd-ucode
 # arch-install-scripts
 # archinstall
 archlinux-keyring
@@ -79,8 +79,7 @@ gptfdisk
 grab
 grub
 hdparm
-# intel-ucode
-amd-ucode
+intel-ucode
 iw
 iwd
 kcrash
@@ -107,16 +106,16 @@ memtest86+
 memtest86+-efi
 mkinitcpio
 mkinitcpio-archiso
-# mkinitcpio-nfs-utils
+mkinitcpio-nfs-utils
 mkinitcpio-openswap
 modemmanager
 mtools
 nano
-# nbd
+nbd
 # ndisc6
 neovim
 networkmanager
-# nfs-utils
+nfs-utils
 # nilfs-utils
 npm
 ntfs-3g
@@ -129,7 +128,7 @@ os-prober
 # parted
 # partimage
 # pcsclite
-# pv
+pv
 python-pyqt5
 qt5-wayland
 qt6-wayland
