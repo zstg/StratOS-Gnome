@@ -63,7 +63,7 @@ gnome-system-monitor
 gedit
 gnome-terminal
 # gnome-text-editor
-gnome-tour
+# gnome-tour
 gnome-user-share
 nautilus
 loupe
@@ -133,7 +133,7 @@ os-prober
 python-pyqt5
 qt5-wayland
 qt6-wayland
-refind
+# refind
 # reflector
 rock
 ripgrep
