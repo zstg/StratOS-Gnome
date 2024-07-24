@@ -1,4 +1,5 @@
 alsa-utils
+# albert
 amd-ucode
 # arch-install-scripts
 # archinstall
@@ -8,10 +9,10 @@ base
 base-devel
 bat
 # bind
-bibata-cursor-theme
+# bibata-cursor-theme
 broadcom-wl
 # btrfs-progs
-calamares-git
+# calamares-git
 ckbcomp
 cmake
 chromium
@@ -109,7 +110,7 @@ memtest86+-efi
 mkinitcpio
 mkinitcpio-archiso
 # mkinitcpio-nfs-utils
-mkinitcpio-openswap
+# mkinitcpio-openswap
 modemmanager
 mtools
 nano
@@ -166,6 +167,6 @@ wget
 wpa_supplicant
 xorg
 xorg-server
-yay-bin
+# yay-bin
 zsh
 zsh-syntax-highlighting
