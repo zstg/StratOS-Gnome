@@ -34,6 +34,7 @@ efibootmgr
 # emacs
 ethtool
 exfatprogs
+# eww
 eza
 f2fs-tools
 fatresize
