@@ -5,6 +5,6 @@ BUILD_ID=rolling
 ANSI_COLOR="38;2;23;147;209"
 HOME_URL="https://github.com/StratOS-Linux/StratOS-iso"
 DOCUMENTATION_URL="https://github.com/StratOS-Linux/StratOS-iso#readme"
-SUPPORT_URL="https://lugvitc.org/"
+SUPPORT_URL="https://stratos-linux.github.io"
 BUG_REPORT_URL="https://github.com/StratOS-Linux/StratOS-iso/issues/"
 LOGO=archlinux-logo
