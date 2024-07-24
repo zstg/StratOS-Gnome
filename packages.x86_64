@@ -12,7 +12,7 @@ bat
 # bibata-cursor-theme
 broadcom-wl
 # btrfs-progs
-calamares-git
+# calamares-git
 ckbcomp
 cmake
 chromium
@@ -86,7 +86,7 @@ amd-ucode
 iw
 iwd
 kcrash
-kpmcore
+# kpmcore
 kvantum
 lazygit
 less
