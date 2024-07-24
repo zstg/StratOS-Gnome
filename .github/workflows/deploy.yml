@@ -20,7 +20,7 @@ jobs:
       - name: Checkout repository using git
         run: |
           pacman -Sy git sudo archiso --noconfirm
-          git clone --recurse-submodules https://github.com/StratOS-Linux/StratOS-iso
+          git clone --recurse-submodules https://github.com/${{ github.repository }} StratOS-iso
 
       - name: Set up environment
         run: |
