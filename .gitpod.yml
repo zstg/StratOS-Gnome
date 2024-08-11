@@ -1,0 +1,7 @@
+image:
+  file: .gitpod.dockerfile
+
+tasks:
+  - name: Build and Deploy
+    command: |
+      docker-compose down && docker-compose up
