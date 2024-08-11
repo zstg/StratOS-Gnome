@@ -39,7 +39,7 @@ create_github_release() {
         https://api.github.com/repos/${GITHUB_REPOSITORY}/releases | jq -r .upload_url | sed -e "s/{?name,label}//")
 
     echo "Uploading ISO to release..."
-    curl -s --data-binary @"output/${ISO_NAME}" \
+    curl -s --data-binary @"output/${ISO_NAME}" \dev
         -H "Authorization: token ${GITHUB_TOKEN}" \
         -H "Content-Type: application/octet-stream" \
         "${UPLOAD_URL}?name=${ISO_NAME}"

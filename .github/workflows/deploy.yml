@@ -19,10 +19,10 @@ jobs:
     steps:
       - name: Checkout repository using git
         run: |
-          pacman -Sy git sudo --noconfirm
+          pacman -Sy git sudo docker docker-compose --noconfirm
           git clone --recurse-submodules https://github.com/${{ github.repository }} StratOS-iso
 
       - name: Build and Release ISO
         run: |
           cd StratOS-iso
-          docker compose down && docker compose up
+          sudo docker compose down && docker compose up
