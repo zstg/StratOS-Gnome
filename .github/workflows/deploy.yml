@@ -16,7 +16,7 @@ jobs:
       - name: Checkout repository using git
         run: |
           sudo apt -y update
-          sudo apt install -y docker-compose-plugin
+          # sudo apt install -y docker-compose-plugin # docker compose has become part of Docker
           git clone --recurse-submodules https://github.com/${{ github.repository }} StratOS-iso
 
       - name: Build and Release ISO
