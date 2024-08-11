@@ -2,7 +2,7 @@ services:
   app:
     build:
       context: .
-      dockerfile: .gitpod.Dockerfile
+      dockerfile: .gitpod.dockerfile
     environment:
       GITHUB_TOKEN: ${GITHUB_TOKEN}
     volumes:

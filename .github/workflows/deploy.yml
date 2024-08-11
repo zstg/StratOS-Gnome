@@ -12,14 +12,11 @@ jobs:
       contents: write
       pull-requests: write
       repository-projects: write
-    container:
-      image: archlinux/archlinux:latest
-      options: --privileged
-
     steps:
       - name: Checkout repository using git
         run: |
-          pacman -Sy git sudo docker docker-compose --noconfirm
+          sudo apt -y update
+          sudo apt install -y docker-compose-plugin
           git clone --recurse-submodules https://github.com/${{ github.repository }} StratOS-iso
 
       - name: Build and Release ISO
