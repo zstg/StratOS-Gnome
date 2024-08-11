@@ -20,7 +20,7 @@ build() {
     echo "Cleaning up..."
     sudo rm -rf output.bak 2>/dev/null
     sudo mv -f output output.bak 2>/dev/null
-    sudo pacman -Sy archiso --noconfirm
+    sudo pacman -Sy archiso grub git jq curl --noconfirm
     echo "Initializing ISO"
     sudo mkarchiso -v \
         -w output \
