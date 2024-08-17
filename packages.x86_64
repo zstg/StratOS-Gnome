@@ -9,10 +9,10 @@ base
 base-devel
 bat
 # bind
-# bibata-cursor-theme
+bibata-cursor-theme-bin
 broadcom-wl
 # btrfs-progs
-# calamares-git
+calamares-git
 ckbcomp
 cmake
 chromium
@@ -78,7 +78,7 @@ xdg-user-dirs-gtk
 gpart
 # gpm
 gptfdisk
-# grab
+grab
 grub
 hdparm
 intel-ucode
@@ -99,6 +99,7 @@ linux-atm
 linux-firmware
 linux-firmware-marvell
 # livecd-sounds
+litefm
 # lsscsi
 lvm2
 # lynx
@@ -131,14 +132,14 @@ os-prober
 # parted
 # partimage
 # pcsclite
-# pv
+pv
 python-pyqt5
 qt5-wayland
 qt6-wayland
 refind
 # reflector
 # rock
-# rockers
+rockers
 ripgrep
 rsync
 sg3_utils
@@ -167,6 +168,6 @@ wget
 wpa_supplicant
 xorg
 xorg-server
-# yay-bin
+yay-bin
 zsh
 zsh-syntax-highlighting
