@@ -8,7 +8,6 @@ if status is-interactive
     else
 	fish_default_key_bindings
     end
-    source ~/.profile
     source ~/.config/fish/aliases
     set -x MANROFFOPT "-c"
     set -x MANPAGER "sh -c 'col -bx | bat -l man -p'"
