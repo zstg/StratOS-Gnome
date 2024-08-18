@@ -1,5 +1,5 @@
 [Unit]
-Description=Start Calamares
+Description=Fix VM issues
 After=graphical-session.target
 
 [Service]
