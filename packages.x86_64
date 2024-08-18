@@ -115,7 +115,7 @@ mkinitcpio-archiso
 modemmanager
 mtools
 nano
-# nbd
+nbd
 # ndisc6
 neovim
 networkmanager
