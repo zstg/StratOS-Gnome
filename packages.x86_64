@@ -168,6 +168,6 @@ wget
 wpa_supplicant
 xorg
 xorg-server
-yay-bin
+# yay-bin
 zsh
 zsh-syntax-highlighting
