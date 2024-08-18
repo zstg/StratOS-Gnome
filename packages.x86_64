@@ -119,7 +119,7 @@ nbd
 # ndisc6
 neovim
 networkmanager
-# nfs-utils
+nfs-utils
 # nilfs-utils
 npm
 ntfs-3g
