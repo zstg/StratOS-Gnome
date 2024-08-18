@@ -52,4 +52,5 @@ file_permissions=(
   ["/usr/local/bin/StratOS-configure-ubuntu"]="0:0:777"
   ["/usr/local/bin/ucode"]="0:0:777"
   ["/usr/local/bin/vcheck"]="0:0:777"
+  ["/usr/share/polkit-1/actions/com.github.calamares.calamares.policy"]="0:0:777"
 )
