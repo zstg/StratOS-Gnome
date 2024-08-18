@@ -1,4 +1,0 @@
-[Desktop Entry]
-Type=Application
-Name=Calamares
-Exec=sh -c "sudo -E calamares -D8"
